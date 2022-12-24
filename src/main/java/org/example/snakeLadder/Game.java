@@ -27,6 +27,8 @@ public class Game {
             makeMove(currentPlayer);
 
             if (currentPlayer.getPosition() == board.getTotalCells()) {
+
+                System.out.println(" \t\t\t  xxxxxx-----xxxxx ----- Hurray -----xxxxx ----------xxxxx");
                 System.out.println(currentPlayer.getName() + " wins the game");
                 break;
             }
